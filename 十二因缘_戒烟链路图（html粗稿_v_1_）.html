@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>十二因缘 × 戒烟链路图｜佛教视角下的成瘾解码</title>
+<style>
+  :root{
+    --bg:#F7F7F7;--card:#FFFFFF;--ink:#2C3E50;--muted:#667085;--accent:#66D9EF;--warn:#E68A63;--ok:#8AAE92;--border:#ECECEC;--chip:#EDE6DE;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;padding:24px;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,Inter,Segoe UI,Roboto,Helvetica,Arial,"Noto Sans SC","PingFang SC","Hiragino Sans GB",sans-serif;}
+  .wrap{max-width:1080px;margin:0 auto;display:grid;gap:16px}
+  .head{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:20px}
+  .title{font-size:22px;font-weight:700;margin:0 0 6px}
+  .subtitle{font-size:14px;color:var(--muted);margin:0}
+  .grid{display:grid;gap:12px}
+  .grid.cols-3{grid-template-columns:repeat(3,1fr)}
+  .grid.cols-2{grid-template-columns:repeat(2,1fr)}
+  @media(max-width:900px){.grid.cols-3{grid-template-columns:1fr}.grid.cols-2{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px}
+  h3{margin:0 0 10px;font-size:16px}
+  p{margin:6px 0 0;line-height:1.6}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+  .chip{font-size:12px;background:var(--chip);border-radius:999px;padding:4px 10px;border:1px solid var(--border)}
+  .flow{display:grid;grid-template-columns:repeat(12,1fr);gap:10px}
+  .node{grid-column:span 3;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:12px;position:relative}
+  .node .n{font-size:12px;color:var(--muted)}
+  .node .t{font-weight:600;margin-top:2px}
+  .node .d{font-size:13px;color:var(--muted);margin-top:6px}
+  .arrow{align-self:center;display:flex;justify-content:center;align-items:center}
+  .arrow::after{content:"→";color:var(--muted)}
+  .insert{position:absolute;top:-10px;right:-10px;background:var(--accent);color:#003644;border-radius:10px;padding:2px 8px;font-size:11px;border:1px solid #bfefff}
+  .warn{background:#FFF5F0;border-color:#FFE1D6}
+  .ok{background:#F1F8F4;border-color:#D7EAD9}
+  .kpi{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+  .kpi .box{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:10px 12px;font-size:13px}
+  .list{margin:8px 0 0;padding-left:18px}
+  .list li{margin:6px 0}
+  .muted{color:var(--muted)}
+  .badge{display:inline-block;background:var(--accent);color:#003644;border-radius:8px;padding:2px 6px;font-size:11px;border:1px solid #bfefff}
+  .cta{margin-top:8px;display:flex;gap:8px;flex-wrap:wrap}
+  .btn{appearance:none;border:none;background:var(--accent);color:#003644;border-radius:12px;padding:8px 12px;font-weight:600;cursor:pointer}
+  .btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--border)}
+  .small{font-size:12px}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="head">
+      <h1 class="title">十二因缘 × 戒烟链路图</h1>
+      <p class="subtitle">佛教视角的成瘾解码：在「触—受—爱」插入正念，把自动化吸烟改造成有意识的选择</p>
+      <div class="kpi">
+        <div class="box"><strong>本周目标</strong>：成功延迟/放弃吸烟 ≥ 3 次</div>
+        <div class="box"><strong>本月目标</strong>：渴望→行为间隔 ≥ 10 分钟</div>
+        <div class="box"><strong>风险</strong>：高压情境、同伴诱发、睡眠不足</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3>四圣谛映射</h3>
+      <div class="grid cols-4">
+        <div class="card"><div class="badge">苦谛</div><p class="muted">短快感，长损耗：焦虑、支出、体能下降、人际味道困扰。</p></div>
+        <div class="card"><div class="badge">集谛</div><p class="muted">因在贪爱与习气：触境触味即起欲；压力→渴望→点烟的自动链。</p></div>
+        <div class="card"><div class="badge">灭谛</div><p class="muted">见因缘无常，贪爱不住，欲起欲灭，循环可止息。</p></div>
+        <div class="card"><div class="badge">道谛</div><p class="muted">以正见、正念、正行，改写链路；以群体支持稳固新习。</p></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3>十二因缘 × 吸烟行为流</h3>
+      <div class="flow" aria-label="十二因缘流图">
+        <!-- 1-3 -->
+        <div class="node"><div class="n">① 无明</div><div class="t">把吸烟误当放松</div><div class="d">忽略真实代价与无常</div></div>
+        <div class="arrow"></div>
+        <div class="node"><div class="n">② 行</div><div class="t">下意识动作</div><div class="d">形成固定“点烟—吸”的程序</div></div>
+        <div class="arrow"></div>
+        <div class="node"><div class="n">③ 识</div><div class="t">念头生起</div><div class="d">“来一根”浮现为自我指令</div></div>
+        <div class="arrow"></div>
+
+        <!-- 4-6 -->
+        <div class="node"><div class="n">④ 名色</div><div class="t">生理反应</div><div class="d">紧张、口腔空虚、手痒</div></div>
+        <div class="arrow"></div>
+        <div class="node"><div class="n">⑤ 六入</div><div class="t">感官通道</div><div class="d">眼鼻舌身意忆起烟味与场景</div></div>
+        <div class="arrow"></div>
+        <div class="node warn"><div class="insert">插入点A</div><div class="n">⑥ 触</div><div class="t">遇境触发</div><div class="d">看到烟盒/闻到味/同伴递烟</div></div>
+        <div class="arrow"></div>
+
+        <!-- 7-9 -->
+        <div class="node warn"><div class="insert">插入点B</div><div class="n">⑦ 受</div><div class="t">感受升起</div><div class="d">渴望、烦躁、期待快感</div></div>
+        <div class="arrow"></div>
+        <div class="node warn"><div class="insert">插入点C</div><div class="n">⑧ 爱</div><div class="t">贪爱执取</div><div class="d">认定“非抽不可”</div></div>
+        <div class="arrow"></div>
+        <div class="node"><div class="n">⑨ 取</div><div class="t">抓取点火</div><div class="d">动作完成临门一脚</div></div>
+        <div class="arrow"></div>
+
+        <!-- 10-12 -->
+        <div class="node"><div class="n">⑩ 有</div><div class="t">吸烟发生</div><div class="d">行为落地，回路强化</div></div>
+        <div class="arrow"></div>
+        <div class="node"><div class="n">⑪ 生</div><div class="t">成瘾再造</div><div class="d">回路权重+1</div></div>
+        <div class="arrow"></div>
+        <div class="node"><div class="n">⑫ 老死</div><div class="t">累积损耗</div><div class="d">健康代价、焦虑、关系影响</div></div>
+      </div>
+      <p class="small muted" style="margin-top:8px">原则：在 ⑥⑦⑧ 之间训练觉察与延迟，越早插入，代价越低。</p>
+    </section>
+
+    <section class="card">
+      <h3>三类「正念插入」脚本</h3>
+      <div class="grid cols-3">
+        <div class="card">
+          <div class="badge">A. 触境当下（⑥）</div>
+          <ul class="list">
+            <li>命名：这只是<em>想吸</em>的线索。</li>
+            <li>五息法：缓吸缓呼×5。</li>
+            <li>替代动作：喝水 200ml / 走动 90 秒。</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="badge">B. 感受升起（⑦）</div>
+          <ul class="list">
+            <li>标注体感：热/紧/空/痒。</li>
+            <li>延时器：设 5 分钟计时。</li>
+            <li>对话句：我可以选择<strong>稍后再决定</strong>。</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="badge">C. 贪爱成形（⑧）</div>
+          <ul class="list">
+            <li>观无常：欲起亦会灭。</li>
+            <li>成本核算：复利损耗 vs 10 分钟间隔。</li>
+            <li>换手：把烟盒移出 3 米以外。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3>因缘日记（每日 1 次）</h3>
+      <ol class="list">
+        <li>今天一次强烈想吸发生在：<span class="muted">时间/地点/情境</span></li>
+        <li>当时的十二因缘链：无明→…→老死（请逐项简写）</li>
+        <li>我在哪一环插入了练习：A/ B/ C，持续了几分钟？</li>
+        <li>结果：延迟 × 分钟 / 放弃 / 仍吸。</li>
+        <li>复盘：下次把“触境线索”提前识别成什么？</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h3>执行面板</h3>
+      <div class="grid cols-2">
+        <div>
+          <p class="muted">本周练习频率</p>
+          <ul class="list">
+            <li>观照练习：每日 ≥ 1 次</li>
+            <li>替代动作：每次渴望先做 1 项</li>
+            <li>延迟计时：每次≥5 分钟；渐进到 ≥10 分钟</li>
+          </ul>
+        </div>
+        <div>
+          <p class="muted">量化指标</p>
+          <ul class="list">
+            <li>渴望→行为平均间隔（分钟）</li>
+            <li>一周延迟/放弃次数</li>
+            <li>高风险场景命中率（提前识别%）</li>
+          </ul>
+        </div>
+      </div>
+      <div class="cta">
+        <button class="btn" onclick="window.print()">打印此图卡</button>
+        <button class="btn ghost" onclick="alert('提示：把“触—受—爱”写在手机备忘录顶部，作为日常锚点。')">提示</button>
+      </div>
+    </section>
+
+    <section class="card ok">
+      <h3>提醒</h3>
+      <p class="small">【假设】本图卡用于个人修习，并不替代医疗建议；如出现明显戒断反应或精神症状，请寻求专业支持。</p>
+    </section>
+  </div>
+</body>
+</html>
